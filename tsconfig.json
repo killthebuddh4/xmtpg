@@ -2,8 +2,6 @@
   "compilerOptions": {
     "target": "es2017",
     "lib": [],
-    "types": ["node"],
-    "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
