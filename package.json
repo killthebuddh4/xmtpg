@@ -5,11 +5,13 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "test": "mocha index.test.js",
+    "dev": "nodemon build/index.js",
+    "test": "mocha build/index.test.js",
     "lint:check": "eslint .",
     "format:check": "prettier --check .",
-    "types:check": "tsc --noEmit"
+    "types:check": "tsc --noEmit",
+    "build": "tsc",
+    "build:watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
