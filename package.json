@@ -4,7 +4,8 @@
   "description": "Reference implementations for server-side XMTP use cases.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "test": "mocha index.test.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/killthebuddh4/xmtpg/issues"
   },
-  "homepage": "https://github.com/killthebuddh4/xmtpg#readme"
+  "homepage": "https://github.com/killthebuddh4/xmtpg#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1"
+  }
 }
