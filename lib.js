@@ -1,3 +1,3 @@
-export const App =  (logger) => {
+export const App = (logger) => {
   return (message) => logger(message);
-}
+};
