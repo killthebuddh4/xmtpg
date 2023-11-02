@@ -1,4 +1,4 @@
-const { App } = require("./lib.js");
+import { App } from "./lib.js";
 
 const app = App(console.log);
 

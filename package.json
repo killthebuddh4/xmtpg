@@ -2,6 +2,7 @@
   "name": "xmtpg",
   "version": "0.0.1",
   "description": "Reference implementations for server-side XMTP use cases.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
