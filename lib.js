@@ -1,3 +1,1 @@
-export const App = (logger) => {
-  return (message) => logger(message);
-};
+export default (logger) => (message) => logger(message);

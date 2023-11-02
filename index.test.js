@@ -1,4 +1,4 @@
-import { App } from "./lib.js";
+import App from "./lib.js";
 
 describe("App works", () => {
   it("Calls the callback with hello world!", () => {
